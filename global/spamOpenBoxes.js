@@ -55,3 +55,4 @@ const capitalize = (text) => text.charAt(0).toUpperCase() + text.slice(1);
         })
     })
 })([((text) => text.charAt(0).toUpperCase() + text.slice(1))(prompt('What box do you want to open? (e.g. "Space") The limited boxes will not open if they are not avaible')) , Number(prompt('How many do you want to open?'))])
+ 
